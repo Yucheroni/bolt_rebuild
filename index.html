@@ -1,18 +1,88 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- HTML5で記述するDOCTYPE宣言 -->
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
-    <title>Bolt - Free Bootstrap 3 Theme</title>
+    <meta charset="utf-8"> <!-- 文字コードの宣言 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- HTML文書の動作・状態を指示するプラグマ指示子 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> <!-- レスポンシブ用の設定 -->
+    <meta name="format-detection" content="telephone=no"> <!-- ページ内の電話番号などの自動リンク化を防ぐ -->
+    <title>Bolt - Free Bootstrap 3 Theme</title> <!-- ページタイトルで、ブラウザのバーにも表示される -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
 <body>
-
+	<div class="wrapper"> <!-- wrapperに対し、margin: 0 autoやデフォルトカラーを設定 -->
+		<header class="header"> <!-- 背景色の指定 -->
+			<div class="inner clearfix"> <!-- コンテンツ幅の設定と中央寄せ -->
+				<i class="fas fa-bolt fa-3x bolt_logo"></i>
+				<div class="header-contact-btn">
+					<p>CONTACT</p>
+				</div>
+			</div>
+			<div class="header_menu_wrap">
+				<ul class=header_menu>
+					<li class="header_menu_list vision">VISION</li>
+					<li class="header_menu_list skill">SKILL</li>
+					<li class="header_menu_list portfolio">PORTFOLIO</li>
+					<li class="header_menu_list blog">BLOG</li>
+					<li class="header_menu_list about_us">ABOUT US</li>
+					<li class="header_menu_list recruit">RECRUIT</li>
+				</ul>
+			</div>
+		</header>
+		<main class="main">
+			<div class="theme"> <!-- 背景色の指定 -->
+				<div class="inner"> <!-- コンテンツ幅の設定と中央寄せ -->
+					<div class="theme_wrap">
+						<p class="theme_text theme_main">Bolt Theme</p>
+						<p class="theme_text theme_sub">FREE BOOTSTRAP<br>THEMES</p>	
+					</div>
+				</div>
+			</div>
+			<article class="our_latest_work"> <!-- 背景色の指定 -->
+				<div class="inner"> <!-- コンテンツ幅の設定と中央寄せ -->
+					<div class="latest_work_wrap">
+			            <p class="latest_work_title">OUR LATEST WORK</p>
+			            <ul class="latest_work_img_wrap">
+			              <li class="latest_work_img">
+			                <img src="img/01.jpg">
+			              </li>
+			              <li class="latest_work_img">
+			                <img src="img/02.jpg">
+			              </li>
+			              <li class="latest_work_img">
+			                <img src="img/03.jpg">
+			              </li>
+			              <li class="latest_work_img">
+			                <img src="img/04.jpg">
+			              </li>
+			              <li class="latest_work_img">
+			                <img src="img/05.jpg">
+			              </li>
+			              <li class="latest_work_img">
+			                <img src="img/06.jpg">
+			              </li>
+			            </ul>
+			            <div class="latest_work_text_wrap">
+			            	<div class="latest_work_text">
+                				<p>Lorem Ipsum is simply dummy text of the printing and typesetting<br>industry. Lorem Ipsum has been the industry's standard dummy<br>text ever.</p>
+              				</div>
+              				<div class="latest_work_btn">
+                				<p class="latest_work_btn_text">LEARN MORE</p>
+              				</div>
+              			</div>
+            		</div>
+				</div>
+			</article>
+		</main>
+		<footer class="footer"> <!-- 背景色の指定 -->
+			<div class="inner"> <!-- コンテンツ幅の設定と中央寄せ -->
+				<p class="footer_text">Crafted with &#9829 by BlackTie.co.</p>
+			</div>
+		</footer>
+	</div>
 <script src="js/script.js"></script>
 </body>
 </html>
